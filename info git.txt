@@ -1,0 +1,61 @@
+Para aprovechar al máximo Git, es imprescindible conocer algunos comandos básicos:
+
+git init: Inicia un nuevo repositorio de Git en un directorio.
+csharp
+
+git init
+
+git clone: Clona un repositorio remoto en tu máquina local.
+bash
+
+git clone <URL_del_repositorio>
+
+git add: Agrega archivos al área de preparación para el próximo commit.
+csharp
+
+git add archivo.txt
+
+git commit: Crea un nuevo commit con los cambios en el área de preparación.
+sql
+
+git commit -m “Mensaje descriptivo del commit”
+
+git status: Muestra el estado actual del directorio de trabajo y del área de preparación.
+lua
+
+git status
+
+git log: Muestra el historial de commits.
+bash
+
+git log
+
+git pull: Obtiene los cambios más recientes del repositorio remoto y los fusiona en tu rama local.
+git pull origin nombre_de_rama
+
+git push: Sube tus commits locales al repositorio remoto.
+perl
+
+git push origin nombre_de_rama
+
+git branch: Muestra una lista de ramas en el repositorio.
+git branch
+
+git checkout: Cambia entre ramas o versiones anteriores de archivos.
+git checkout nombre_de_rama
+
+git merge: Fusiona cambios de una rama en otra.
+sql
+
+git merge nombre_de_rama
+
+git remote: Muestra la lista de repositorios remotos configurados.
+git remote -v
+
+git diff: Muestra las diferencias entre archivos en el directorio de trabajo y el área de preparación.
+git diff
+
+git reset: Deshace cambios en el área de preparación o en el directorio de trabajo.
+perl
+
+git reset archivo.txt
